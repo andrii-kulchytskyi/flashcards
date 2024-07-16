@@ -1,10 +1,9 @@
-import { Button } from '@/components/ui/button'
+import { Card } from '@/components/ui/card/card'
 
 export function App() {
   return (
     <>
-      <Button>Normal</Button>
-      <Button as={'a'}>As a link</Button>
+      <Card children={'ddd'} />
     </>
   )
 }
